@@ -1,21 +1,35 @@
-# 📝 DevSecOps Pipeline Lab – Setup Guides
+# 🛠️ EDS DevSecOps Pipeline Lab – Setup Guides
 
-This directory contains step-by-step guides for setting up the DevSecOps pipeline services and supporting infrastructure.
+This directory contains detailed step-by-step guides for installing, configuring, and validating the core services and tools used in the DevSecOps Pipeline Lab environment.
 
-## Guides Included
+Each guide ensures consistent reproducibility across deployments and supports rapid onboarding for new internal team members.
 
-- Docker installation and environment setup
-- Service-specific configuration (Jenkins, GitLab, SonarQube)
-- Security tool integration into CI/CD pipeline
-- Lab initialization and validation procedures
+---
 
-## Purpose
+## 📚 Setup Guides Included
 
-The setup guides are intended to:
+| Guide Filename | Description |
+|:---|:---|
+| `docker-installation-guide.md` | Instructions for installing Docker Engine and Docker Compose |
+| `jenkins-setup-guide.md` | Guide for installing, securing, and configuring Jenkins server |
+| `gitlab-setup-guide.md` | Instructions for setting up a GitLab instance and registering GitLab Runners |
+| `sonarqube-setup-guide.md` | Steps for deploying and configuring SonarQube for static code analysis |
+| `owasp-zap-setup-guide.md` | Optional setup instructions for integrating OWASP ZAP into CI/CD security testing |
 
-- Ensure repeatable deployments across different systems
-- Document troubleshooting tips and common issues
-- Support training and onboarding of internal team members
+---
+
+## 🧠 Setup Best Practices
+
+- Follow guides sequentially unless otherwise noted.
+- Validate service health after each major installation step.
+- Capture screenshots at major milestones for reproducibility and audit logs.
+- Record any deviations or troubleshooting notes separately for continuous improvement.
+
+---
+
+## 🔒 Internal Use Only
+
+Setup procedures and configurations are proprietary to Eagle Defense Systems (EDS) and intended for internal development and training purposes only.
 
 ---
 
