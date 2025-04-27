@@ -1,57 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="rHsQWTbGOgab_UMKQwIw">
-    <mxGraphModel dx="3324" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3643" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-1" value="Virtual Switch:&lt;br&gt;EDS_Internal&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="-2280" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-15" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Hyper-V Host Machine&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=light-dark(#d3b64a, #121212);strokeColor=light-dark(#ddc778, #ffc5c5);strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="-2240" y="60" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-2" value="Hyper-V Host (EDS Workstation)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2520" y="10" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-3" value="Virtual Switch:&amp;nbsp;&lt;div&gt;EDS_Bridge (External)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="-2020" y="140" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-4" value="Ubuntu VM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2255" y="260" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-5" value="Kali VM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2255" y="360" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-6" value="Parrot VM&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2255" y="460" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-7" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Host Ethernet&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
-          <mxGeometry x="-2020" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-2220.42" y="260" as="sourcePoint" />
-            <mxPoint x="-2220.42" y="200" as="targetPoint" />
-            <Array as="points" />
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KgPdh_fEtPb9r7KRroM1-21" target="KgPdh_fEtPb9r7KRroM1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2210" y="150" />
+              <mxPoint x="-2210" y="150" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KgPdh_fEtPb9r7KRroM1-4" target="KgPdh_fEtPb9r7KRroM1-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-2305" y="270" as="sourcePoint" />
-            <mxPoint x="-2305" y="210" as="targetPoint" />
-            <Array as="points" />
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KgPdh_fEtPb9r7KRroM1-21" target="KgPdh_fEtPb9r7KRroM1-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-21" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Virtual Switch:&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;EDS_Internal&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=light-dark(#d3b64a, #121212);strokeColor=light-dark(#ddc778, #ffc5c5);strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="-2280" y="150" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KgPdh_fEtPb9r7KRroM1-25" target="KgPdh_fEtPb9r7KRroM1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2020" y="140" />
+              <mxPoint x="-2020" y="140" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-2220.42" y="460" as="sourcePoint" />
-            <mxPoint x="-2220.42" y="400" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-25" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Virtual Switch:&lt;/span&gt;&lt;div&gt;&lt;font&gt;EDS_Bridge (External)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=light-dark(#d3b64a, #121212);strokeColor=light-dark(#ddc778, #ffc5c5);strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="-2080" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KgPdh_fEtPb9r7KRroM1-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="KgPdh_fEtPb9r7KRroM1-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1960.34" y="290" as="sourcePoint" />
-            <mxPoint x="-1960" y="210" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ubuntu VM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=light-dark(#d3b64a, #121212);strokeColor=light-dark(#ddc778, #ffc5c5);strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="-2280" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KgPdh_fEtPb9r7KRroM1-27" target="KgPdh_fEtPb9r7KRroM1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Host Ethernet&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=light-dark(#d3b64a, #121212);strokeColor=light-dark(#ddc778, #ffc5c5);strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="-2080" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KgPdh_fEtPb9r7KRroM1-28" target="KgPdh_fEtPb9r7KRroM1-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KgPdh_fEtPb9r7KRroM1-28" target="KgPdh_fEtPb9r7KRroM1-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Kali VM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=light-dark(#d3b64a, #121212);strokeColor=light-dark(#ddc778, #ffc5c5);strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="-2280" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KgPdh_fEtPb9r7KRroM1-29" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Parrot VM&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=light-dark(#d3b64a, #121212);strokeColor=light-dark(#ddc778, #ffc5c5);strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="-2280" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
