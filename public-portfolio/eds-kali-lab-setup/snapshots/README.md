@@ -1,4 +1,4 @@
-# Kali Linux EDS Lab - Snapshots
+#📸 EDS Kali Linux Lab - Snapshot and Checkpoint Log
 
 This directory documents the baseline installation and configuration checkpoints for the Kali Linux lab.
 
