@@ -23,3 +23,4 @@ This directory maintains official snapshots for the baseline installation and co
 ---
 
 > **Maintained by Eagle Defense Systems (EDS) Labs Team**
+stems (EDS) Labs Team**
